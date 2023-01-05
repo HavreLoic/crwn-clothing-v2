@@ -12,7 +12,8 @@ const NavigationBar = () => {
                 </Link>
                 <div className="nav-links-container">
                     <Link className="nav-link" to='/shop'>SHOP</Link>
-                    <Link className="nav-link" to='/sign-in'>Sign in</Link>
+                    <Link className="nav-link" to='/auth'>Sign in</Link>
+                    <Link className="nav-link" to='/sign-up-form'>Sign up</Link>
                 </div>
             </div>
             <Outlet />
