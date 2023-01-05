@@ -6,7 +6,7 @@ import './categories.styles.scss';
 
 const Shop = () => {
   return (
-  <h1>I am the shop Component</h1>
+    <h1>I am the shop Component</h1>
   )
 }
 const App = () => {
