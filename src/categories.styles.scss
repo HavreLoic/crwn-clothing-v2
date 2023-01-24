@@ -3,6 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media screen and (max-width: 800px) {
+        height: 200px;
+    }
 }
 
 .category-container {
@@ -74,5 +78,12 @@
             font-weight: lighter;
             font-size: 16px;
         }
+    }
+
+    @media screen and (max-width: 800px) {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
     }
 }
